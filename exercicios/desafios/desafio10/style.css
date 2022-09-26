@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: white;
+    background-color: rgb(41, 184, 89);
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    background-image: linear-gradient(to top, green, rgb(2, 197, 2));
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: Oswald, sans-serif;
+
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header > nav {
+    text-align: left;
+    margin-bottom: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 900px;
+    margin: auto;
+}
+
+main > h2,h3 {
+    font-family: 'Android', sans-serif;
+    color: green;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.marcador {
+    background-color: rgba(24, 177, 24, 0.205);
+}
+
+.paraOVideo {
+    background-color: rgb(53, 143, 53);
+    margin: 0px;
+    padding: 2px 15px;
+    text-align: center;
+}
+
+.marcadorForte {
+    background-color: rgba(36, 255, 36, 0.822);
+    color: white;
+}
+
+.aprender {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: rgba(37, 167, 80, 0.685);
+}
+
+.marcadorFuter {
+    background-color: rgb(27, 134, 63);
+    text-align: center;
+}
+
